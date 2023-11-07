@@ -1,0 +1,6 @@
+island,body_mass_g,bill_length_mm,bill_depth_mm,flipper_length_mm,sex,year
+Torgersen,4000,44.1,18,210,male,2009
+Torgersen,3325,38.5,17.9,190,female,2009
+Torgersen,3500,43.1,19.2,197,male,2009
+Dream,3500,36.8,18.5,193,female,2009
+Dream,4475,37.5,18.5,199,male,2009

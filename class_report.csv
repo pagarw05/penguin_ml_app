@@ -1,0 +1,5 @@
+Metric,Adelie,Gentoo,Chinstrap,Accuracy,Macro Avg,Weighted Avg
+Precision,0.90,1.00,0.83,0.93,0.91,0.92
+Recall,0.93,1.00,0.77,0.93,0.90,0.93
+F1-score,0.91,1.00,0.80,0.93,0.90,0.92
+Support,28,26,13,0.93,67,67
