@@ -17,6 +17,12 @@ st.write("This app uses 6 inputs to predict the species of penguin using "
          "a model built on the Palmer's Penguin's dataset. Use the following form or upload your dataset" 
          " to get started!") 
 
+# Asking user to enter a password before the rest of the application loads
+password_guess = st.text_input("What is the Password?")
+# if the password is incorrect, stop the app from running
+if password_guess != st.secrets["password"]:
+   st.stop()
+
 # Reading the pickle files that we created before 
 dt_pickle = open('decision_tree_penguin.pickle', 'rb') 
 map_pickle = open('output_penguin.pickle', 'rb') 
